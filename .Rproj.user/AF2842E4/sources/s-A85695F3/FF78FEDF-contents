@@ -253,7 +253,7 @@ naive_estimator <- function(data) {
       EYB_naive = mean(outcome*(1 - treatment)),
       EYA_naive = mean(outcome*treatment)
     ) %>% 
-    mutate(naive_estimator = EYB_naive- EYB_naive)
+    mutate(naive_estimator = EYA_naive- EYB_naive)
 }
 ```
 
