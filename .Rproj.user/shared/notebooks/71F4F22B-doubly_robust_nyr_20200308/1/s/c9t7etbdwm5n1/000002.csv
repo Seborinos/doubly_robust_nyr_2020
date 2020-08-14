@@ -1,0 +1,3 @@
+"0","prop_score_model <- function(data) {"
+"0","  glm(treatment ~ var_1 + var_2, data = data, family = 'binomial')"
+"0","}"

@@ -1,0 +1,3 @@
+"0","mean_outcome_model <- function(data) {"
+"0","  glm(outcome ~ treatment + var_1 + var_2, data = data)"
+"0","}"

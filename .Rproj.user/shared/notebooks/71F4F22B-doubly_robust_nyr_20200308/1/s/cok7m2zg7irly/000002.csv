@@ -1,0 +1,4 @@
+"0","outcome_model_estimator <- function(data) {"
+"0","   mean_model <- mean_outcome_model(data) # Compute the model"
+"0","   summary(mean_model)$coefficients[2, 1] # Coefficient for treatment"
+"0","}"
